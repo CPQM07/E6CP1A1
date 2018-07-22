@@ -6,7 +6,9 @@ Se pide imprimir la secuencia numérica, de la siguiente forma:
 4   8   12   16
 =end
 
-4.times do |i|
-    i + 1
-    print "#{i += 1} "    
+4.times do |x|
+    5.times do |i|
+        print "#{(x+1) * i} "
+    end
+    puts
 end
