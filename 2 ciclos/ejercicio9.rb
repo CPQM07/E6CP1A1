@@ -11,3 +11,17 @@
 </table>
 
 =end
+puts "Ingrese cantidad de filas"
+rows = gets.chomp.to_i
+
+puts "<table>"
+puts "	<tbody>"
+puts "		<tr>"
+
+rows.times do |i|
+	puts "			<td>#{i+1}</td>"
+end
+
+puts "		<tr>"
+puts "	<tbody>"
+puts "</table>"
